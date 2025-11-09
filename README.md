@@ -1,4 +1,4 @@
-# 📊 Finance & Investment Analysis – Interview Assessment
+# 📊 Senior Analyst - Analytics & System – Interview Assessment
 
 ### 👤 Author: **Priyanka Kamble**
 ### 🗓️ Prepared For: **Technical & Case-Based Interview Evaluation**
@@ -10,7 +10,7 @@
 This assignment demonstrates end-to-end analytical, financial modeling, and portfolio optimization capabilities across **four key tasks**, each targeting a core competency area in modern finance analytics:
 
 1. **Portfolio Risk & Dashboarding (Visualization)**
-2. **Transaction Data & Counterparty Analysis**
+2. **Transaction Data  Analysis**
 3. **Machine Learning for Stock Prediction**
 4. **Portfolio Optimization – Mean Variance vs Hierarchical Risk Parity**
 
@@ -55,8 +55,7 @@ To design and build a **single-screen Power BI dashboard** that monitors the per
 
 ## 💰 Task 2: Transaction Data – Counterparty Analysis
 
-### 🎯 Objective
-Analyze a synthetic transaction dataset to identify **key counterparties and trade patterns** to assist compliance and liquidity risk teams.
+
 
 ### 🧠 Approach
 - Loaded transaction-level data using **Pandas**.
@@ -85,13 +84,6 @@ Train and compare predictive models using **Kaggle stock data (train.pkl / test.
 ### 🧠 Approach
 - Data preprocessing:
   - Handled missing values, encoded features, normalized predictors.
-- Models evaluated:
-  1. **Linear Regression**
-  2. **Random Forest Regressor**
-  3. **XGBoost Regressor**
-- Used **TimeSeriesSplit (5 folds)** for CV.
-- Evaluated using **RMSE** and **R² Score**.
-- Final model generated predictions for `test.pkl` and saved as `submission.csv`.
 
 ### ⚙️ Tools & Libraries
 - `pandas`, `scikit-learn`, `xgboost`, `numpy`, `matplotlib`
@@ -115,8 +107,8 @@ Compare **Mean-Variance Optimization (MVO)** and **Hierarchical Risk Parity (HRP
   - **MVO (Markowitz Efficient Frontier)** using `PyPortfolioOpt`
   - **HRP (Hierarchical Risk Parity)** using hierarchical clustering
 - Applied practical constraints:
-  - Maximum Commodity weight = 20%
-  - Target Annual Volatility ≤ 15%
+  - Maximum Commodiy weight = 20%
+  - Target Annual Vlatility ≤ 15%
 
 ### ⚙️ Tools & Libraries
 - `PyPortfolioOpt`, `scipy`, `matplotlib`, `pandas`
@@ -145,33 +137,8 @@ Compare **Mean-Variance Optimization (MVO)** and **Hierarchical Risk Parity (HRP
 | **Model Evaluation** | RMSE, Sharpe Ratio, Annualized Volatility |
 | **Optimization** | MVO, HRP, Efficient Frontier, Clustering |
 
----
 
-## 🧠 Interview Talking Points
 
-- Demonstrated integration of **quantitative finance concepts** with **data science techniques**.
-- Used **Python for analytics** and **Power BI for communication** – highlighting business storytelling ability.
-- Balanced technical accuracy with clarity, aligning with enterprise portfolio management practices.
-- Experienced in **asset allocation**, **ML forecasting**, and **data visualization for executive dashboards**.
 
----
-
-## 📄 Deliverables
-
-| File | Description |
-|------|--------------|
-| `Interview Questions.xlsx` | Raw data and task instructions |
-| `Transaction Data.ipynb` | Jupyter notebook with calculations & plots |
-| `stock_timeseries_ml_pipeline.ipynb` | ML model training and evaluation |
-| `risk_management_task4.ipynb` | risk management task 4 solution |
-| `Risk Dashboard.pbix` | Interactive portfolio risk dashboard |
-| `README.md` | Documentation and summary (this file) |
-
----
-
-## 🏁 Conclusion
-
-This project showcases a **multi-disciplinary finance analyst skill set** — bridging **data analytics, risk management, and quantitative modeling**.
-Each task reflects a critical area of real-world financial analytics — from **portfolio monitoring** and **counterparty exposure** to **machine learning forecasting** and **optimization under constraints**.
 
 > 💡 *This demonstrates readiness for data-driven investment analysis, central bank portfolio optimization, and strategic risk reporting roles.*
