@@ -1,7 +1,6 @@
 # 📊 Finance & Investment Analysis – Interview Assessment
 
-### 👤 Author: **Nikhil Dattatray Bamne**
-### 🎓 Role: **Senior Finance & Data Analyst (Quantitative Research | Portfolio Optimization | AI & ML in Finance)**
+### 👤 Author: **Priyanka Kamble**
 ### 🗓️ Prepared For: **Technical & Case-Based Interview Evaluation**
 
 ---
